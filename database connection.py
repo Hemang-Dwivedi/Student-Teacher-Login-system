@@ -8,7 +8,7 @@ from flask_socketio import SocketIO, send, emit
 import random
 
 app = Flask(__name__)
-DB_URI = 'mongodb+srv://Admin:admin%40123@cluster0.1lkj9.mongodb.net/csproject?retryWrites=true&w=majority'
+DB_URI = '*************'
 mongoDB.connect("csproject", host=DB_URI)
 app = Flask(__name__)
 CORS(app)
